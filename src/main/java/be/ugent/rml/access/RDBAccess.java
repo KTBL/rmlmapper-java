@@ -96,7 +96,6 @@ public class RDBAccess implements Access {
                     alreadySomeQueryParametersPresent = true;
                 }
             }
-
             if (databaseType == DatabaseType.MYSQL) {
                 if (alreadySomeQueryParametersPresent) {
                     connectionString += "&";
